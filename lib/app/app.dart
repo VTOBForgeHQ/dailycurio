@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-
 import 'package:dailycurio/features/splash/screens/splash_page.dart';
+import 'package:dailycurio/app/theme/app_theme.dart';
 
 class DailyCurioApp extends StatelessWidget {
   const DailyCurioApp({super.key});
@@ -10,9 +10,7 @@ class DailyCurioApp extends StatelessWidget {
     return MaterialApp(
       title: 'DailyCurio',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        useMaterial3: true,
-      ),
+      theme: AppTheme.light(),
       home: const SplashScreen(),
     );
   }
