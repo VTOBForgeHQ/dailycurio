@@ -10,7 +10,7 @@ class DailyCurioApp extends StatelessWidget {
     return MaterialApp(
       title: 'DailyCurio',
       debugShowCheckedModeBanner: false,
-      theme: AppTheme.light(),
+      theme: AppTheme.light,
       home: const SplashScreen(),
     );
   }
